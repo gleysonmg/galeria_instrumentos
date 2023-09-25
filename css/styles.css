@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+header {
+    background-color: #0e76e0;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Imagens */
+#img-violao-1 {
+    background-image: url('../img/violao1.jpeg');
+}
+#img-violao-2 {
+    background-image: url('../img/violao2.jpeg');
+}
+#img-violao-3 {
+    background-image: url('../img/violao3.jpeg');
+}
+#img-violao-4 {
+    background-image: url('../img/violao4.jpeg');
+}
+#img-guitarra-1 {
+    background-image: url('../img/guitarra1.jpeg');
+}
+#img-guitarra-2 {
+    background-image: url('../img/guitarra2.jpeg');
+}
+#img-guitarra-3 {
+    background-image: url('../img/guitarra3.jpeg');
+}
+#img-piano-1 {
+    background-image: url('../img/piano1.jpeg');
+}
+#img-piano-2 {
+    background-image: url('../img/piano2.jpeg');
+}
+#img-piano-3 {
+    background-image: url('../img/piano3.jpeg');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #292a2b;
+    border-left: 5px solid #0e76e0;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0e76e0;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0e76b0;
+}
+
+/* Footer */
+footer {
+    background-color: #292a2b;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
